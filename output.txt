@@ -1,0 +1,10 @@
+No recurring characters in this line.
+No recurring characters in this line.
+No recurring characters in this line.
+No recurring characters in this line.
+The max run is '0' and '0' characters long.
+No recurring characters in this line.
+The max run is 'y' and '3' characters long.
+No recurring characters in this line.
+The max run is '9' and '4' characters long.
+No recurring characters in this line.
