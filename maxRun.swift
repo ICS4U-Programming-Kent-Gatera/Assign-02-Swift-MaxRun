@@ -21,9 +21,11 @@ func main() {
         let fileURL = URL(fileURLWithPath: outputFilePath)
         let outputFileHandle = try FileHandle(forWritingTo: fileURL)
         
+        // FOr every line in the input,
         for line in lines {
             let result = runCalc(line)
             if result[0] == 999 {
+                // We write output of that line.
                 try! outputFileHandle.write("No recurring characters in this line.\n".data(using: .utf8)!)
             } else {
                 let maxRunChar = Character(UnicodeScalar(result[1])!)
